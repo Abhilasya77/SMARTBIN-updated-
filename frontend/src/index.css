@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  background: #0D0D0D;
+  color: #E6F5E9;
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #3CF37C;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  background: #3CF37C;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background: #2CC762;
+}
